@@ -6,6 +6,8 @@ class Cat
   attr_accessor :name
   attr_writer :meow
 
+# this is the getter for meow but since it has an output
+# we write it seperately
   def meow
     puts "meow!"
   end
